@@ -12,7 +12,7 @@ formal_name = "Hello World"
 description = "A simple application which is going to print Hello World"
 icon = "src/helloworld/resources/helloworld"
 sources = ['src/helloworld']
-requires = []
+requires = ["httpx", "json", "newsapi-python"]
 
 
 [tool.briefcase.app.helloworld.macOS]
